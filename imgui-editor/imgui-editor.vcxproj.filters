@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\src">
+      <UniqueIdentifier>{cea72bd8-d5f8-4a13-bcd5-5af331cd7571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src">
+      <UniqueIdentifier>{b1df7a06-db6c-4b81-9b12-8ed6b28442eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\dependencies">
+      <UniqueIdentifier>{e86a0ebe-65a6-4492-aaf9-f31b0291ac1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\dependencies\assets">
+      <UniqueIdentifier>{053fcd71-f41e-4563-a498-6195e29b90ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\dependencies\console">
+      <UniqueIdentifier>{993a3a89-331d-4cde-ac70-878526cd3b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\dependencies\modals">
+      <UniqueIdentifier>{f920cf64-6e14-4a73-b6df-9dd29b2ec8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\dependencies\notifies">
+      <UniqueIdentifier>{42f73048-f4c0-4d12-9718-95de54e7ba6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\dependencies">
+      <UniqueIdentifier>{0d30a2a9-e68c-4e00-9858-a0017609e80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\dependencies\console">
+      <UniqueIdentifier>{be591767-2359-4dd9-b56d-c1db9d357984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\dependencies\modals">
+      <UniqueIdentifier>{417db799-4136-49f7-a354-967281c1c9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\dependencies\notifies">
+      <UniqueIdentifier>{cddc67b5-a390-4866-b081-07233e3a6e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\filesystem">
+      <UniqueIdentifier>{f98ea731-4245-459e-8bfa-e011bf2ec2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\history">
+      <UniqueIdentifier>{abaa348d-ca7f-4016-87c6-c6809ab7b74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\imgui">
+      <UniqueIdentifier>{42bdc7bf-6bd9-4ea2-9b3c-ba4bb09608f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\installer">
+      <UniqueIdentifier>{40b4d7d8-ebce-449c-9b5e-1a5bca7c0bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\interface">
+      <UniqueIdentifier>{6ce813d6-0625-4a66-ae89-7388ac69bbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\layerSystem">
+      <UniqueIdentifier>{99635986-2a99-4722-acc7-fc0f27fa0b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\projects">
+      <UniqueIdentifier>{2dcb3bc7-541e-4106-88ed-6c1118797021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\prototypeSystem">
+      <UniqueIdentifier>{2b2fa3b5-bbaf-4356-9640-24b5e4f2b56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\utils">
+      <UniqueIdentifier>{c16abb69-6d6a-49d0-aa4f-3f52576acba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\workspace">
+      <UniqueIdentifier>{e8f9bbe0-31bb-4a0c-8e6b-6c923c7e7f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\workspace\widgets">
+      <UniqueIdentifier>{10a6040c-0a98-40e6-acd5-44fb3e5610b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\filesystem">
+      <UniqueIdentifier>{1b740a54-4a2e-4888-a1ae-5760881fa41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\history">
+      <UniqueIdentifier>{e5bec768-5670-44a2-9c8d-05da00c08ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\imgui">
+      <UniqueIdentifier>{26298e89-16a9-4048-a759-ae1f9e11d105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\installer">
+      <UniqueIdentifier>{f291c3c1-5fc8-462e-b137-99fc8cbfcc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\interface">
+      <UniqueIdentifier>{910a07d8-1f7d-4c4e-b3a4-ba06e1431b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\layerSystem">
+      <UniqueIdentifier>{fc1f8dd0-de53-426a-ad9d-0ae41667c5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\workspace">
+      <UniqueIdentifier>{dc0d1fb6-1712-4a18-b144-1f7fbada7a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\workspace\widgets">
+      <UniqueIdentifier>{d0acd9d7-6bb1-46ad-a0c7-71722ecfb3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\utils">
+      <UniqueIdentifier>{6a26eca9-73a8-4dac-9b47-20b66ae65a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\prototypeSystem">
+      <UniqueIdentifier>{dac14748-8466-4060-897d-4cc2807cb976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\src\projects">
+      <UniqueIdentifier>{af2b5144-d1ca-4975-860f-e01b47f21727}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\console\console.cpp">
+      <Filter>Archivos de origen\dependencies\console</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\modals\modals.cpp">
+      <Filter>Archivos de origen\dependencies\modals</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\notifies\notifies.cpp">
+      <Filter>Archivos de origen\dependencies\notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\filesystem.cpp">
+      <Filter>Archivos de origen\src\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\history\history.cpp">
+      <Filter>Archivos de origen\src\history</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_dx9.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_win32.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tweaker.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\installer\installerSystem.cpp">
+      <Filter>Archivos de origen\src\installer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interface\homepage.cpp">
+      <Filter>Archivos de origen\src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interface\interface.cpp">
+      <Filter>Archivos de origen\src\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layerSystem\layerManagement.cpp">
+      <Filter>Archivos de origen\src\layerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layerSystem\layerSystem.cpp">
+      <Filter>Archivos de origen\src\layerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\projects\projectSystem.cpp">
+      <Filter>Archivos de origen\src\projects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\workspace\prototypeMananger.cpp">
+      <Filter>Archivos de origen\src\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\workspace\windowSettings.cpp">
+      <Filter>Archivos de origen\src\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\workspace\widgets\checkboxSettings.cpp">
+      <Filter>Archivos de origen\src\workspace\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\workspaceKeybinds.cpp">
+      <Filter>Archivos de origen\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prototypeSystem\prototypeSystem.cpp">
+      <Filter>Archivos de origen\src\prototypeSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\context.hpp">
+      <Filter>Archivos de encabezado\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\assets\faprolight.hpp">
+      <Filter>Archivos de encabezado\dependencies\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\assets\hashes.h">
+      <Filter>Archivos de encabezado\dependencies\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\assets\SFUIDisplay.hpp">
+      <Filter>Archivos de encabezado\dependencies\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\console\console.hpp">
+      <Filter>Archivos de encabezado\dependencies\console</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\modals\modals.hpp">
+      <Filter>Archivos de encabezado\dependencies\modals</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\notifies\notifies.h">
+      <Filter>Archivos de encabezado\dependencies\notifies</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filesystem\filesystem.hpp">
+      <Filter>Archivos de encabezado\src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\history\history.hpp">
+      <Filter>Archivos de encabezado\src\history</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_dx9.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_win32.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_tweaker.hpp">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\installer\installerSystem.hpp">
+      <Filter>Archivos de encabezado\src\installer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interface\elements.hpp">
+      <Filter>Archivos de encabezado\src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interface\homepage.hpp">
+      <Filter>Archivos de encabezado\src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interface\interface.hpp">
+      <Filter>Archivos de encabezado\src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interface\transformDrawlist.hpp">
+      <Filter>Archivos de encabezado\src\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layerSystem\layerManagement.hpp">
+      <Filter>Archivos de encabezado\src\layerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layerSystem\layerSystem.hpp">
+      <Filter>Archivos de encabezado\src\layerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\projects\projectSystem.hpp">
+      <Filter>Archivos de encabezado\src\projects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\prototypeSystem\prototypeSystem.hpp">
+      <Filter>Archivos de encabezado\src\prototypeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\utils.hpp">
+      <Filter>Archivos de encabezado\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\workspaceKeybinds.hpp">
+      <Filter>Archivos de encabezado\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\workspace\prototypeItems.hpp">
+      <Filter>Archivos de encabezado\src\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\workspace\prototypeMananger.hpp">
+      <Filter>Archivos de encabezado\src\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\workspace\windowSettings.hpp">
+      <Filter>Archivos de encabezado\src\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\workspace\widgets\checkboxSettings.hpp">
+      <Filter>Archivos de encabezado\src\workspace\widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
