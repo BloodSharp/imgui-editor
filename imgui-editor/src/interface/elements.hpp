@@ -1,17 +1,6 @@
 #pragma once
 
-#include <functional>
-
-#include <imgui.h>
-#include <imgui_internal.h>
-
-#include "prototypeSystem/prototypeSystem.hpp"
-#include "layerSystem/layerSystem.hpp"
-#include "filesystem/filesystem.hpp"
-#include "history/history.hpp"
-
-#include "assets/hashes.h"
-#include "transformDrawlist.hpp"
+#include "imgui-editor-precompiled.h"
 
 namespace elements
 {

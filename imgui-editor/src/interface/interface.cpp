@@ -1,20 +1,6 @@
-#include "interface.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include <format>
-
-#include "elements.hpp"
-
-#include "../workspace/windowSettings.hpp"
-#include "../workspace/widgets/checkboxSettings.hpp"
-#include "../workspace/prototypeMananger.hpp"
-
-#include "../layerSystem/layerSystem.hpp"
-#include "../projects/projectSystem.hpp"
-
-#include "dependencies/assets/hashes.h"
-#include "dependencies/console/console.hpp"
-#include "../filesystem/filesystem.hpp"
-#include "homepage.hpp"
+std::shared_ptr<interfaceSystem> gInterfaceSystem = std::make_shared<interfaceSystem>();
 
 void interfaceSystem::Navigation()
 {

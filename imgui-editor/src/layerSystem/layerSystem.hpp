@@ -3,26 +3,7 @@
 
 #pragma once
 
-#include <memory>
-
-#include <any>
-#include <cstddef>
-#include <vector>
-#include <string>
-#include <iomanip>
-#include <sstream>
-
-#include <d3d9.h>
-#pragma comment(lib, "d3d9.lib")
-
-#include <d3dx9.h>
-#pragma comment(lib, "d3dx9.lib")
-
-#include "interface/interface.hpp"
-#include "workspace/windowSettings.hpp"
-#include "console/console.hpp"
-#include <imgui.h>
-#include <imgui_internal.h>
+#include "imgui-editor-precompiled.h"
 
 enum class drawType : int 
 {
@@ -110,4 +91,4 @@ public:
 	std::vector<systemFont> systemFonts;
 };
 
-inline auto gLayerSystem = std::make_shared<layerSystem>();
+extern std::shared_ptr<layerSystem> gLayerSystem = std::make_shared<layerSystem>();

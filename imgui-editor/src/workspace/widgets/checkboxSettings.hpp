@@ -1,11 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include <imgui.h>
-#include <imgui_internal.h>
-
-#include "context.hpp"
+#include "imgui-editor-precompiled.h"
 
 class CheckboxSettings
 {
@@ -16,5 +11,5 @@ public:
 	void Mainbar();
 };
 
-inline auto checkboxSettings = std::make_shared<CheckboxSettings>();
+extern std::shared_ptr<CheckboxSettings> checkboxSettings;
 

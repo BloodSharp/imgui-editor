@@ -1,15 +1,6 @@
-#include "homepage.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include <format>
-
-#include "elements.hpp"
-
-#include "../filesystem/filesystem.hpp"
-#include "../projects/projectSystem.hpp"
-
-#include "dependencies/assets/hashes.h"
-#include "dependencies/console/console.hpp"
-#include "dependencies/modals/modals.hpp"
+extern std::shared_ptr<homepageSystem> gHomepageSystem = std::make_shared<homepageSystem>();
 
 void homepageSystem::Render()
 {

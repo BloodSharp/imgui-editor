@@ -1,12 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include "../context.hpp"
-#include "../layerSystem/layerSystem.hpp"
-
-#include <imgui.h>
-#include <imgui_internal.h>
+#include "imgui-editor-precompiled.h"
 
 class WorkspaceKeybinds {
 public:
@@ -18,5 +12,5 @@ public:
 	void HandleMouse(ImVec2& pos);
 };
 
-inline auto workspaceKeybinds = std::make_shared<WorkspaceKeybinds>();
+extern std::shared_ptr<WorkspaceKeybinds> workspaceKeybinds;
 

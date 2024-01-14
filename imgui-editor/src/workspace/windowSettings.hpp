@@ -1,11 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include <imgui.h>
-#include <imgui_internal.h>
-
-#include "context.hpp"
+#include "imgui-editor-precompiled.h"
 
 class WindowSettings
 {
@@ -16,5 +11,5 @@ public:
 	void Mainbar();
 };
 
-inline auto windowSettings = std::make_shared<WindowSettings>();
+extern std::shared_ptr<WindowSettings> windowSettings;
 

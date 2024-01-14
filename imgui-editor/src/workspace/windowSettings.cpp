@@ -1,15 +1,6 @@
-#include "windowSettings.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include "../utils/workspaceKeybinds.hpp"
-#include "../utils/utils.hpp"
-#include "../layerSystem/layerSystem.hpp"
-#include "../layerSystem/layerManagement.hpp"
-#include "../interface/interface.hpp"
-#include "../interface/elements.hpp"
-#include "../projects/projectSystem.hpp"
-
-#include "dependencies/assets/hashes.h"
-#include "dependencies/console/console.hpp"
+std::shared_ptr<WindowSettings> windowSettings = std::make_shared<WindowSettings>();
 
 void WindowSettings::Render()
 {

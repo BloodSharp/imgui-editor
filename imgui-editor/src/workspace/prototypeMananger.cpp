@@ -1,17 +1,6 @@
-#include "prototypeMananger.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include "../utils/workspaceKeybinds.hpp"
-#include "../utils/utils.hpp"
-#include "../layerSystem/layerSystem.hpp"
-#include "../layerSystem/layerManagement.hpp"
-#include "../interface/interface.hpp"
-#include "../interface/elements.hpp"
-#include "../projects/projectSystem.hpp"
-
-#include "dependencies/assets/hashes.h"
-#include "dependencies/console/console.hpp"
-
-#include "prototypeItems.hpp"
+std::shared_ptr<PrototypeManager> prototypeManager = std::make_shared<PrototypeManager>();
 
 void RenderWidgets(std::vector<widgetPrototype>& prototypes, int padding, int counter = 0)
 {

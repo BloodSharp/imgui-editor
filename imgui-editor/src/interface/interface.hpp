@@ -1,9 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include <imgui.h>
-#include <imgui_internal.h>
+#include "imgui-editor-precompiled.h"
 
 class interfaceSystem {
 public:
@@ -16,4 +13,4 @@ private:
 	void Infobar();
 };
 
-inline auto gInterfaceSystem = std::make_shared<interfaceSystem>();
+extern std::shared_ptr<interfaceSystem> gInterfaceSystem;

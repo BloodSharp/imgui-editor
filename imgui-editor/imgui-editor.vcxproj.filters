@@ -112,6 +112,12 @@
     <Filter Include="Archivos de encabezado\src\projects">
       <UniqueIdentifier>{af2b5144-d1ca-4975-860f-e01b47f21727}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\precompiled-headers">
+      <UniqueIdentifier>{a470c304-4dea-42b0-b5d4-d63053941a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\precompiled-headers">
+      <UniqueIdentifier>{f52da636-a4d9-475b-9673-a98844fb0890}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry.cpp">
@@ -131,12 +137,6 @@
     </ClCompile>
     <ClCompile Include="src\history\history.cpp">
       <Filter>Archivos de origen\src\history</Filter>
-    </ClCompile>
-    <ClCompile Include="src\imgui\imgui_impl_dx9.cpp">
-      <Filter>Archivos de origen\src\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="src\imgui\imgui_impl_win32.cpp">
-      <Filter>Archivos de origen\src\imgui</Filter>
     </ClCompile>
     <ClCompile Include="src\imgui\imgui_tweaker.cpp">
       <Filter>Archivos de origen\src\imgui</Filter>
@@ -174,6 +174,33 @@
     <ClCompile Include="src\prototypeSystem\prototypeSystem.cpp">
       <Filter>Archivos de origen\src\prototypeSystem</Filter>
     </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_sdl2.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>Archivos de origen\src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled-headers\imgui-editor-precompiled.cpp">
+      <Filter>Archivos de origen\precompiled-headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\context.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\context.hpp">
@@ -202,12 +229,6 @@
     </ClInclude>
     <ClInclude Include="src\history\history.hpp">
       <Filter>Archivos de encabezado\src\history</Filter>
-    </ClInclude>
-    <ClInclude Include="src\imgui\imgui_impl_dx9.h">
-      <Filter>Archivos de encabezado\src\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\imgui\imgui_impl_win32.h">
-      <Filter>Archivos de encabezado\src\imgui</Filter>
     </ClInclude>
     <ClInclude Include="src\imgui\imgui_tweaker.hpp">
       <Filter>Archivos de encabezado\src\imgui</Filter>
@@ -256,6 +277,42 @@
     </ClInclude>
     <ClInclude Include="src\workspace\widgets\checkboxSettings.hpp">
       <Filter>Archivos de encabezado\src\workspace\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_sdl2.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>Archivos de encabezado\src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="precompiled-headers\imgui-editor-precompiled.h">
+      <Filter>Archivos de encabezado\precompiled-headers</Filter>
+    </ClInclude>
+    <ClInclude Include="entry.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

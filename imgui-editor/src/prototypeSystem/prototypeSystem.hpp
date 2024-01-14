@@ -1,14 +1,6 @@
 #pragma once
 
-#include <memory>
-#include <vector>
-#include <string>
-
-#include "../context.hpp"
-#include "../utils/utils.hpp"
-
-#include <imgui.h>
-#include <imgui_internal.h>
+#include "imgui-editor-precompiled.h"
 
 enum class elementType : int {
 	CURSOR_POS, SAMELINE,
@@ -170,5 +162,5 @@ public:
 	std::vector<widgetPrototype> prototypes;
 };
 
-inline auto gPrototypeSystem = std::make_shared<prototypeSystem>();
+extern std::shared_ptr<prototypeSystem> gPrototypeSystem;
 

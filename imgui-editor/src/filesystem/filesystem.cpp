@@ -1,9 +1,6 @@
-#include "filesystem.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include "dependencies/console/console.hpp"
-#include "../context.hpp"
-
-#include <fstream>
+std::shared_ptr<fileSystem> gFileSystem = std::make_shared<fileSystem>();
 
 void fileSystem::FetchProjects()
 {

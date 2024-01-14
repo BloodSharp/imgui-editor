@@ -1,9 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include <imgui.h>
-#include <imgui_internal.h>
+#include "imgui-editor-precompiled.h"
 
 class homepageSystem {
 public:
@@ -12,4 +9,4 @@ public:
 	int selectedTab = 0;
 };
 
-inline auto gHomepageSystem = std::make_shared<homepageSystem>();
+extern std::shared_ptr<homepageSystem> gHomepageSystem;

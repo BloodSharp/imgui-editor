@@ -5,9 +5,9 @@
 #include <imgui.h>
 #include <console/console.hpp>
 
-#include "imgui/imgui_impl_dx9.h"
-#include "imgui/imgui_impl_win32.h"
-#include "layerSystem/layerSystem.hpp"
+#include <imgui_impl_opengl3.h>
+#include <imgui_impl_sdl2.h>
+#include "src/layerSystem/layerSystem.hpp"
 
 #include <filesystem>
 

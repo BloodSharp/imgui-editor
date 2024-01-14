@@ -1,8 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include "layerSystem.hpp"
+#include "imgui-editor-precompiled.h"
 
 class LayerManagement {
 public:
@@ -17,4 +15,4 @@ public:
 	void Tools();
 };
 
-inline auto layerManagement = std::make_shared<LayerManagement>();
+extern std::shared_ptr<LayerManagement> layerManagement;

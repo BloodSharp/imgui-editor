@@ -1,7 +1,5 @@
 #pragma once
 
-#include <imgui.h>
-
 struct Context 
 {
 	int SelectedEditor = 0;
@@ -46,4 +44,4 @@ struct Context
 	}
 };
 
-inline Context gContext = Context{};
+extern Context gContext;

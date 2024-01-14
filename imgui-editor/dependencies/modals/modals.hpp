@@ -1,14 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include <imgui.h>
-#include <imgui_internal.h>
-
-#include <string>
-#include <functional>
-
-#include "imgui/imgui_tweaker.hpp"
+#include "imgui-editor-precompiled.h"
 
 class modalManager {
 public:
@@ -25,4 +17,4 @@ private:
 	std::function<void()> m_fContent;
 };
 
-inline auto gModalManager = std::make_shared<modalManager>();
+extern std::shared_ptr<modalManager> gModalManager;

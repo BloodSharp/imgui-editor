@@ -1,11 +1,6 @@
 #pragma once
-#include <imgui.h>
 
-#include <string>
-#include <vector>
-#include <windows.h>
-#include <algorithm>
-#include <sysinfoapi.h>
+#include "imgui-editor-precompiled.h"
 
 enum notify_state_s : int {
 	info_state = 0,

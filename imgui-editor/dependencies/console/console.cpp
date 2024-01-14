@@ -1,4 +1,6 @@
-#include "console.hpp"
+#include "imgui-editor-precompiled.h"
+
+std::shared_ptr<consoleMananger> conManager = std::make_shared<consoleMananger>();
 
 void consoleMananger::init( )
 {

@@ -1,8 +1,6 @@
-#include "installerSystem.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include "dependencies/assets/faprolight.hpp"
-#include "dependencies/assets/hashes.h"
-#include "dependencies/assets/SFUIDisplay.hpp"
+std::shared_ptr<installerSystem> gInstallerSystem = std::make_shared<installerSystem>();
 
 void installerSystem::SetStyles()
 {

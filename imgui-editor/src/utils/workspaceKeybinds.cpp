@@ -1,6 +1,6 @@
-#include "workspaceKeybinds.hpp"
-#include "../filesystem/filesystem.hpp"
-#include "../history/history.hpp"
+#include "imgui-editor-precompiled.h"
+
+std::shared_ptr<WorkspaceKeybinds> workspaceKeybinds = std::make_shared<WorkspaceKeybinds>();
 
 void WorkspaceKeybinds::Layer()
 {

@@ -1,12 +1,6 @@
 #pragma once
 
-#include <memory>
-#include <vector>
-
-#include <nlohmann/json.hpp>
-#include <imgui.h>
-#include <imgui_internal.h>
-#include "layerSystem/layerSystem.hpp"
+#include "imgui-editor-precompiled.h"
 
 struct WindowStruct
 {
@@ -68,5 +62,5 @@ public:
 	currentProjectData data;
 };
 
-inline auto gProjectSystem = std::make_shared<projectSystem>();
+extern std::shared_ptr<projectSystem> gProjectSystem;
 

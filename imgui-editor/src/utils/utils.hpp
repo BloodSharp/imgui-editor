@@ -1,11 +1,6 @@
 #pragma once
 
-#include <windows.h>
-#include <filesystem>
-
-#include "../layerSystem/layerSystem.hpp"
-#include "../projects/projectSystem.hpp"
-#include "../context.hpp"
+#include "imgui-editor-precompiled.h"
 
 namespace utils {
     inline LSTATUS result;

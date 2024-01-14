@@ -1,8 +1,6 @@
-#include "layerManagement.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include "../interface/elements.hpp"
-#include "../utils/utils.hpp"
-#include "../context.hpp"
+std::shared_ptr<LayerManagement> layerManagement = std::make_shared<LayerManagement>();
 
 void LayerManagement::Render(ImDrawList* draw, drawTarget target)
 {

@@ -1,9 +1,6 @@
-#include "projectSystem.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include "../projects/projectSystem.hpp"
-
-#include "dependencies/console/console.hpp"
-#include "../prototypeSystem/prototypeSystem.hpp"
+std::shared_ptr<projectSystem> gProjectSystem = std::make_shared<projectSystem>();
 
 template <class T>
 void projectSystem::JSON(nlohmann::json& j, std::string name, T& value, bool save) {

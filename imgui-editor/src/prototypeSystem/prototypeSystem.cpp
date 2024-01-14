@@ -1,5 +1,6 @@
-#include "prototypeSystem.hpp"
-#include "../utils/utils.hpp"
+#include "imgui-editor-precompiled.h"
+
+std::shared_ptr<prototypeSystem> gPrototypeSystem = std::make_shared<prototypeSystem>();
 
 void prototypeSystem::addCursorPos(ImVec2 size)
 {

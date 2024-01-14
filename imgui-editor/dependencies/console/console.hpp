@@ -1,10 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include <windows.h>
-#include <stdarg.h>
-#include <stdio.h>
+#include "imgui-editor-precompiled.h"
 
 class consoleMananger
 {
@@ -17,4 +13,4 @@ private:
 	HANDLE _in = NULL, _old_in = NULL;
 };
 
-inline auto conManager = std::make_shared<consoleMananger>();
+extern std::shared_ptr<consoleMananger> conManager;

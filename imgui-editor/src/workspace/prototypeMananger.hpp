@@ -1,12 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include <imgui.h>
-#include <imgui_internal.h>
-
-#include "context.hpp"
-#include "prototypeSystem/prototypeSystem.hpp"
+#include "imgui-editor-precompiled.h"
 
 class PrototypeManager
 {
@@ -19,5 +13,5 @@ public:
 	widgetPrototype* currentEditor;
 };
 
-inline auto prototypeManager = std::make_shared<PrototypeManager>();
+extern std::shared_ptr<PrototypeManager> prototypeManager;
 

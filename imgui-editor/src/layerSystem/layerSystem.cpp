@@ -1,7 +1,6 @@
-#include "layerSystem.hpp"
+#include "imgui-editor-precompiled.h"
 
-#include "imgui/imgui_impl_dx9.h"
-#include "utils/utils.hpp"
+std::shared_ptr<layerSystem> gLayerSystem = std::make_shared<layerSystem>();
 
 void layerSystem::RegisterImage(std::string path) {
     layerStruct baseData;

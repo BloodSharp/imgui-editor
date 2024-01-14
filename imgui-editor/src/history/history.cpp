@@ -1,4 +1,6 @@
-#include "history.hpp"
+#include "imgui-editor-precompiled.h"
+
+std::shared_ptr<historySystem> gHistorySystem = std::make_shared<historySystem>();
 
 void historySystem::RegisterHistoryItem() {
 	//historyIterator = historyItems.size() - 1;

@@ -1,4 +1,6 @@
-#include "modals.hpp"
+#include "imgui-editor-precompiled.h"
+
+std::shared_ptr<modalManager> gModalManager = std::make_shared<modalManager>();
 
 void modalManager::Run(std::function<void()> func, ImVec2 size, std::string naming)
 {

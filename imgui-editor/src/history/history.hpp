@@ -1,9 +1,6 @@
 #pragma once
 
-#include <memory>
-
-#include "../context.hpp"
-#include "../projects/projectSystem.hpp"
+#include "imgui-editor-precompiled.h"
 
 class historySystem {
 public:
@@ -17,4 +14,4 @@ private:
 	std::vector<currentProjectData> historyItems;
 };
 
-inline auto gHistorySystem = std::make_shared<historySystem>();
+extern std::shared_ptr<historySystem> gHistorySystem;
